@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 132.71 sec <<< FAILURE! - in TestSuite
+loginDDT(com.inetBanking.testCases.TC_LoginDDT_002)  Time elapsed: 5.561 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at com.inetBanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:33)
+
+loginDDT(com.inetBanking.testCases.TC_LoginDDT_002)  Time elapsed: 4.604 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at com.inetBanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:33)
+
+loginDDT(com.inetBanking.testCases.TC_LoginDDT_002)  Time elapsed: 4.573 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at com.inetBanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:33)
+
+loginDDT(com.inetBanking.testCases.TC_LoginDDT_002)  Time elapsed: 4.705 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at com.inetBanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:33)
+
+loginDDT(com.inetBanking.testCases.TC_LoginDDT_002)  Time elapsed: 4.571 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at com.inetBanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:33)
+
+loginDDT(com.inetBanking.testCases.TC_LoginDDT_002)  Time elapsed: 4.845 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at com.inetBanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:33)
+
+loginDDT(com.inetBanking.testCases.TC_LoginDDT_002)  Time elapsed: 5.066 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at com.inetBanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:33)
+
+addCustomer(com.inetBanking.testCases.TC_AddCustomer_003)  Time elapsed: 12.386 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: *[name='pin']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-1HDNIHLA', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10704, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ccf7e97-735a-42a4-b6ae-2c2116c2e4b5
+*** Element info: {Using=name, value=pin}
+	at com.inetBanking.testCases.TC_AddCustomer_003.addCustomer(TC_AddCustomer_003.java:33)
+
